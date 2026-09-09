@@ -13,10 +13,15 @@ LNAI. Springer, 2026. DOI:https://doi.org/10.1007/978-3-032-37657-2_27. In Press
 - Libraries required - add later
 
 ## Instructions
-- Specific command examples to run the code
-```python
-python main.py --dataset xyz --model HbInOut-MLP # to do add later
+- The datasets with split configurations are huge - and couldn't be uploaded - but could be obtained from source code of [31,24,28]
+- add more details later
+
+Run:
 ```
+python run_.py --model=hessian_mlp --dataset=roman_empire_40_30_30 # \Phi=mlp
+python run_.py --model=hessian_I --dataset=roman_empire_40_30_30 # \Phi=I
+```
+
 ## Disclaimer
 This software is published only to support reproducibility in research - not for commercial use or placement on the market.
 
