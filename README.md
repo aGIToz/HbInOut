@@ -35,9 +35,36 @@ flowchart LR
     ODE --> D["Decoder"]
     D --> Y["Class scores"]
 ```
-
 ## Requirements
-- Key libraries required torchdiffeq==0.2.5, torch-geometric==2.6.1, torch_scatter==2.1.2, and torch==2.6.0
+
+Key libraries:
+
+| Library | Version |
+|---|---|
+| `torch` | 2.6.0 |
+| `torch-geometric` | 2.6.1 |
+| `torch_scatter` | 2.1.2 |
+| `torchdiffeq` | 0.2.5 |
+
+The code also imports `torch_sparse`, `ogb`, `scikit-learn`, `scipy` and `numpy`.
+
+### Installation
+
+```bash
+git clone https://github.com/aGIToz/HbInOut.git
+cd HbInOut
+
+# PyTorch (pick the build matching your CUDA version: https://pytorch.org/get-started/locally/)
+pip install torch==2.6.0
+
+# PyTorch Geometric and its compiled extensions
+# replace ${CUDA} with cpu, cu118, cu124 or cu126
+pip install torch-geometric==2.6.1
+pip install torch_scatter==2.1.2 torch_sparse -f https://data.pyg.org/whl/torch-2.6.0+${CUDA}.html
+
+# Remaining dependencies
+pip install torchdiffeq==0.2.5 ogb scikit-learn scipy numpy
+```
 
 ## Instructions
 - The datasets with split configurations are huge - and couldn't be uploaded - but could be obtained from source code of [31,24,28]
