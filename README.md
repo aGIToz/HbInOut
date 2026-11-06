@@ -10,12 +10,10 @@ LNAI. Springer, 2026. DOI:https://doi.org/10.1007/978-3-032-37657-2_27. In Press
 - explain the model hbinout
 
 ## Requirements
-- Libraries required - add later
+- Key libraries required torchdiffeq==0.2.5, torch-geometric==2.6.1, torch_scatter==2.1.2, and torch==2.6.0
 
 ## Instructions
 - The datasets with split configurations are huge - and couldn't be uploaded - but could be obtained from source code of [31,24,28]
-- add more details later
-
 Run:
 ```
 python run_.py --model=hessian_mlp --dataset=roman_empire_40_30_30 # \Phi=mlp
