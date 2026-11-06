@@ -28,13 +28,7 @@ Two variants are provided:
 | HbInOut ($\Phi = \mathrm{MLP}$) | `hessian_mlp` | learnable MLP |
 | HbInOut ($\Phi = I$) | `hessian_I` | identity map|
 
-```mermaid
-flowchart LR
-    X["Node features + Graph topology"] --> E["Encoder<br/>(MLP + residual blocks)"]
-    E --> ODE["Neural ODE on the graph<br/>dx/dt = Φ(outflux) − Φ(influx)"]
-    ODE --> D["Decoder"]
-    D --> Y["Class scores"]
-```
+
 ## Requirements
 
 Key libraries:
