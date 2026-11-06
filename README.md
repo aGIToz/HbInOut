@@ -9,7 +9,7 @@ LNAI. Springer, 2026. DOI:https://doi.org/10.1007/978-3-032-37657-2_27. In Press
 
 <!-- TODO: expand this section with a fuller explanation of HbInOut (e.g. abstract, key equations, figure from the paper). -->
 
-HbInOut is a continuous graph neural network for node classification or regression for graph learning and graph ensemble learning tasks. Node features are encoded, evolved over a time interval by a neural ODE defined on the graph (solved with [`torchdiffeq`](https://github.com/rtqichen/torchdiffeq)), and decoded into node scores.
+HbInOut is a continuous graph neural network for node classification or regression for general graph learning and graph ensemble (snapshot) learning tasks. Node features are encoded, evolved over a time interval by a neural ODE defined on the graph (solved with [`torchdiffeq`](https://github.com/rtqichen/torchdiffeq)), and decoded into node scores.
 
 The ODE's vector field is a learnable **generalized Hessian operator on the graph**, split into two flux terms:
 
