@@ -48,7 +48,7 @@ Key libraries:
 
 The code also imports `torch_sparse`, `ogb`, `scikit-learn`, `scipy` and `numpy`.
 
-### Installation
+## Installation
 
 ```bash
 git clone https://github.com/aGIToz/HbInOut.git
