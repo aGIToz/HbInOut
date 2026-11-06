@@ -67,8 +67,10 @@ pip install torchdiffeq==0.2.5 ogb scikit-learn scipy numpy
 ```
 
 ## Instructions
-- The datasets with split configurations are huge - and couldn't be uploaded - but could be obtained from source code of [31,24,28]
-Run:
+The datasets with their split configurations are too large to be uploaded to this repository. They can be obtained from the source code of references [31, 24, 28] in the paper.
+
+Place each dataset as a `.npz` file under `Datasets/data/`, relative to the directory you run from:
+
 ```
 python run_.py --model=hessian_mlp --dataset=roman_empire_40_30_30 # \Phi=mlp
 python run_.py --model=hessian_I --dataset=roman_empire_40_30_30 # \Phi=I
