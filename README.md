@@ -74,7 +74,7 @@ python run_.py --model=hessian_I --dataset=roman_empire_40_30_30 # \Phi=I
 This software is published only to support reproducibility in research - not for commercial use or placement on the market.
 
 ## Third-party code
-Portions of this file are adapted from GRAND (https://github.com/twitter-research/graph-neural-pde), Apache-2.0 (see LICENSE-GRAND). Modifications by Amitoz Azad, 2026, are licensed under MIT (see LICENSE).
+Portions of this code are adapted from GRAND (https://github.com/twitter-research/graph-neural-pde), Apache-2.0 (see LICENSE-GRAND). Modifications by Amitoz Azad, 2026, are licensed under MIT (see LICENSE).
 
 
 ## Acknowledgements
