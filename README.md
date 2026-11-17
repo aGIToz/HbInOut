@@ -70,15 +70,27 @@ python run_.py --model=hessian_mlp --dataset=roman_empire_40_30_30 # \Phi=mlp
 python run_.py --model=hessian_I --dataset=roman_empire_40_30_30 # \Phi=I
 ```
 
-## Disclaimer
-This software is published only to support reproducibility in research - provided as is, without warranty - not for commercial use.
-
 ## Third-party code
 Portions of this code are adapted from GRAND (https://github.com/twitter-research/graph-neural-pde), Apache-2.0 (see LICENSE-GRAND). Modifications by Amitoz Azad, 2026, are licensed under MIT (see LICENSE).
-
 
 ## Acknowledgements
 This work was partially funded by the Deutsche Forschungsgemeinschaft (DFG), Germany (“RUSHMORE”, 547610252), 
 mFund, the Federal Ministry of Transport (BMV), Germany (“MoToRes”, 01F2271C) and the Lamarr Institute for Machine Learning and 
 Artificial Intelligence (https://lamarr-institute.org/).
- 
+
+## Software Information
+- Version: 1.0.0
+- Author: Amitoz Azad
+- GitHub: https://github.com/aGIToz/HbInOut
+- BonnData DOI: https://doi.org/10.80624/FK2/Y2W2M0
+
+## System Requirements
+- Operating system: Linux
+- PyTorch: 2.6.0
+- CUDA: 12.6 (reference GPU environment)
+
+## Software Citation
+Azad, A. (2026). HbInOut: Learning Generalized Hessian on Graphs for Continuous Graph Learning (Source Code). bonndata. https://doi.org/10.80624/FK2/Y2W2M0
+
+## Disclaimer
+This software is provided as is, without warranty, to support research and reproducibility.
