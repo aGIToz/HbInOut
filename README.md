@@ -70,7 +70,7 @@ python run_.py --model=hessian_mlp --dataset=roman_empire_40_30_30 # \Phi=mlp
 python run_.py --model=hessian_I --dataset=roman_empire_40_30_30 # \Phi=I
 ```
 
-## Third-party code
+## License
 Portions of this code are adapted from GRAND (https://github.com/twitter-research/graph-neural-pde), Apache-2.0 (see LICENSE-GRAND). Modifications by Amitoz Azad, 2026, are licensed under MIT (see LICENSE).
 
 ## Acknowledgements
